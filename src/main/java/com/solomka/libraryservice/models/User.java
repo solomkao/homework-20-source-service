@@ -23,16 +23,4 @@ public class User {
 
     @Column
     private String email;
-
-//    @OneToMany(mappedBy="user")
-//    List<Book> books = new ArrayList<>();
-//
-//
-//    public void addBook(Book book){
-//        books.add(book);
-//    }
-//    public void addBooks(List<Book> book){
-//        books.addAll(book);
-//    }
-
 }

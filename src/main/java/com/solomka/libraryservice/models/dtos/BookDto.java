@@ -15,5 +15,6 @@ import java.util.List;
 public class BookDto {
 
     private String title;
+
     private List<Author> authors = new ArrayList<>();
 }
